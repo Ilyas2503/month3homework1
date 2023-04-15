@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">month3 homeWork1</string>
+    <string name="text">Введите первое имя</string>
+    <string name="text2">Введите второе имя</string>
+    <string name="text3">Введите третье имя</string>
+    <string name="click">Click</string>
+    <string name="first_name">первое имя</string>
+    <string name="second_name">второе имя</string>
+    <string name="third_name">третье имя</string>
+</resources>
