@@ -26,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViews();
+        onClick();
+//        btn_click.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                    }
+//        });
+    }
+
+    private void onClick() {
         btn_click.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,9 +62,12 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 navigateToSecondScreen();
+
+
             }
         });
     }
+
     private void findViews() {
         btn_click = findViewById(R.id.btnClick);
         editText1 = findViewById(R.id.editText1);
